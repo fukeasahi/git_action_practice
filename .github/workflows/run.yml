@@ -5,11 +5,7 @@ on:
         branches: [main]
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
-        steps:
-        - name:
-        uses: actions/checkout@v2
-        run: echo 'success'
-        
-
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "this is pen"
+      - uses: actions/checkout@v2
