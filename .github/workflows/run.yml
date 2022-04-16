@@ -9,7 +9,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name:
-        - uses: actions/checkout@v2
-        - runs: echo 'success'
+        uses: actions/checkout@v2
+        runs: echo 'success'
         
 
