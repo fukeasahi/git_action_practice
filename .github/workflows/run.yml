@@ -1,0 +1,15 @@
+name: Rails CI/CD
+
+on:
+    push:
+        branches: [main]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+        - name:
+        - uses: actions/checkout@v2
+        - runs: echo 'success'
+        
+
